@@ -80,7 +80,7 @@ public class PlayGame {
 				}else if(turns>8 && inValidFlags>0){
 					System.out.println("Game finished!!  No. of invalid flags: "+this.inValidFlags);
 					gameIsOn=false;
-				}if(turns>8 && inValidFlags==0){
+				}else if(turns>8 && inValidFlags==0){
 					System.out.println("Game finished!!  You won!!! ");
 					gameIsOn=false;
 				}
